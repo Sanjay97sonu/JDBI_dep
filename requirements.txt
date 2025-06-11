@@ -1,0 +1,30 @@
+# ✅ COMPLETE WEBSITE SCRAPER WITH PDF EXTRACTION - POSTGRESQL VERSION
+# Compatible with Python 3.10
+
+# Core Web Scraping & HTML Processing
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=4.9.0
+
+# Natural Language Processing
+nltk>=3.8.0
+
+# Machine Learning & Vector Search
+sentence-transformers>=2.2.0
+faiss-cpu==1.7.4  # 1.7.4 is stable with Python 3.10
+numpy>=1.21.0,<1.24  # For maximum compatibility and to avoid 3.11+ constraints
+
+# AI Integration
+anthropic>=0.7.0
+
+# Web Framework
+flask>=2.3.0
+
+# PDF Processing
+PyMuPDF>=1.21.0,<1.23.7  # Ensure compatibility with Python 3.10
+
+# Database
+psycopg2-binary>=2.9.0
+
+# Data Processing & Utilities
+pickle-mixin>=1.0.2
