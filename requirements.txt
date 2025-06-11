@@ -28,3 +28,6 @@ psycopg2-binary>=2.9.0
 
 # Data Processing & Utilities
 pickle-mixin>=1.0.2
+
+# Deployement
+gunicorn>=20.0.0
