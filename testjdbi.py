@@ -839,7 +839,7 @@ def setup_rag_system(force_rebuild=False):
             return
         
         # Initialize Claude
-        client = anthropic.Anthropic(api_key="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")
+        client = anthropic.Anthropic(api_key="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")
         print("✅ Claude initialized")
         
         # Load embedding model
